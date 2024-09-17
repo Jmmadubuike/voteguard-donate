@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+  <title>VoteGuard - Donate to Make a Difference</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header */
+    header {
+      background-color: #007500;
+      color: white;
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    /* Main Section */
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .main-content {
+      width: 60%;
+      padding: 20px;
+    }
+
+    .main-content h2 {
+      font-size: 2em;
+      color: #007500;
+    }
+
+    .main-content p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .donate-btn {
+      background-color: #007500;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .donate-btn:hover {
+      background-color: #005b00;
+    }
+
+    /* QR Code Section */
+    .qr-section {
+      width: 35%;
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 2px solid #007500;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .qr-section img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .qr-section h3 {
+      font-size: 1.5em;
+      color: #007500;
+      margin-top: 15px;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 20px;
+      background-color: #007500;
+      color: white;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .main {
+        flex-direction: column;
+      }
+
+      .main-content, .qr-section {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .main-content {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <img src="voteguard-logo.png" alt="VoteGuard Logo">
+    <h1>VoteGuard - Donate to Make a Difference</h1>
+  </header>
+
+  <!-- Main Section -->
+  <div class="container">
+    <div class="main">
+      <!-- Donation Information -->
+      <div class="main-content">
+        <h2>Donate to Protect Democracy</h2>
+        <p>
+          Your donation helps us safeguard democracy by ensuring fair and transparent voting processes.
+          With your support, we can continue to build trust, defend electoral integrity, and empower voters
+          across the nation. Every contribution, no matter how small, makes a significant impact.
+        </p>
+        <button class="donate-btn" onclick="redirectToDonation()">Donate Now</button>
+      </div>
+
+      <!-- QR Code Section -->
+      <div class="qr-section">
+        <img src="qr_code.jpg" alt="Donate QR Code">
+        <h3>Scan to Donate</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 VoteGuard. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript to handle donation button -->
+  <script>
+    function redirectToDonation() {
+      window.location.href = "https://flutterwave.com/donate/lumchnnd61oi";
+    }
+  </script>
+</body>
+</html>

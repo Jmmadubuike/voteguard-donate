@@ -1,0 +1,57 @@
+<svg id="VoteGuard_Logo" data-name="VoteGuard Logo" xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-1 {
+        stroke-width: 40px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #007500;
+        stroke-width: 50px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #007500;
+      }
+
+      .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 120px;
+      }
+
+      .cls-6 {
+        text-anchor: middle;
+      }
+
+      .cls-7 {
+        font-family: "Segoe UI";
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="1000" cy="1000" r="673"/>
+  <path id="Sign_6_1" data-name="Sign 6 1" class="cls-2" d="M1000,1604.03c485.49-132.44,547.49-542.94,547.49-678.377s-41.54-278.112-151.06-426.2c-82.43,32.526-262.49,46.96-396.43,0-133.944,46.96-314,32.526-396.421,0-109.532,148.085-151.071,290.749-151.071,426.2S514.52,1471.59,1000,1604.03Z"/>
+  <path id="Sign_6_1_copy" data-name="Sign 6 1 copy" class="cls-3" d="M1000,1493.58c388.39-105.96,437.99-434.36,437.99-542.709s-33.23-222.489-120.84-340.957c-65.95,26.021-209.99,37.568-317.15,0-107.156,37.568-251.2,26.021-317.137,0-87.625,118.468-120.857,232.6-120.857,340.957S611.616,1387.62,1000,1493.58Z"/>
+  <path class="cls-4" d="M827.077,937.354H1173.64a40,40,0,0,1,40,40V1136.91a40,40,0,0,1-40,40H827.077a40,40,0,0,1-40-40V977.354A40,40,0,0,1,827.077,937.354Z"/>
+  <path id="Checked_Box_1" data-name="Checked Box 1" class="cls-5" d="M1076.9,1042.64v97.1H929.043v-3.79H921.46V984.3h151.65v3.094c12.98-13.178,22.09-22.432,22.09-22.432l1.19-1.207,39.47,31.01Zm-7.58-54.551H925.251V1132.16H1069.32V1048.8l-93.266,75.75-48.431-76.76,45.885-7.65,11.635,36.57c2.877-2.92,52.557-53.36,84.177-85.47v-3.151Z"/>
+  <text id="VoteGuard" class="cls-6" transform="matrix(0.719, 0, 0, 0.719, 1003.106, 1255.032)"><tspan x="0"><tspan class="cls-7">V</tspan>ote<tspan>G</tspan>uard</tspan></text>
+</svg>
